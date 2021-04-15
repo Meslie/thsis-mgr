@@ -5,11 +5,11 @@ module.exports = {
     },
     extends: [
         // 注释此处关闭ESLint
-        // 'plugin:vue/vue3-essential',
+        'plugin:vue/vue3-essential',
         '@vue/airbnb',
     ],
     parserOptions: {
-        // parser: 'babel-eslint',
+        parser: 'babel-eslint',
     },
     rules: {
         'no-console': process.env.NODE_ENV === 'production' ? 'warn' : 'off',

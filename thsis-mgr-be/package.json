@@ -1,18 +1,25 @@
 {
-  "name": "thsis-mgr-be",
-  "version": "1.0.0",
-  "description": "毕业论文管理系统服务端",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [
-    "论文管理系统"
-  ],
-  "author": "Meslie",
-  "license": "ISC",
-  "dependencies": {
-    "koa": "^2.13.1",
-    "mongoose": "^5.12.3"
-  }
+    "name": "thsis-mgr-be",
+    "version": "1.0.0",
+    "description": "毕业论文管理系统服务端",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "dev": "nodemon src/index.js"
+    },
+    "keywords": [
+        "论文管理系统"
+    ],
+    "author": "Meslie",
+    "license": "ISC",
+    "dependencies": {
+        "@koa/cors": "^3.1.0",
+        "@koa/router": "^10.0.0",
+        "koa": "^2.13.1",
+        "koa-body": "^4.2.0",
+        "mongoose": "^5.12.3"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.7"
+    }
 }
